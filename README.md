@@ -1,13 +1,8 @@
 # Animated Headline - Visual Composer (WPBakery Page Builder)
 
-**Contributors:** sajjad67 \
-**Tags:** content, editor, page, pages post, posts, shortcode, shortcodes, builder, wpbakery, visual builder, drag and drop, animation, headline, heading, vc, custom, addon, extension, ext, effect, animated text, super text, best plugin, super effect, animated effect, wordpress, animation effect, style, code, animation code, sajjad \
-**Requires at least:** 5.6 \
-**Requires PHP:** 5.3.0 \
-**Tested up to:** 6.6 \
-**Stable tag:** 1.0.4 \
-**License:** GPLv2 \
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.html
+**Tags:** wpbakery, effect, animated text, animated effect, animation effect \
+**Tested up to:** 6.8 \
+**Requires PHP:** 8.0
 
 Animate Your Headlines With Eye Catching Animation : Drag & Drop Animation Builder - Visual Composer (Now WPBakery Page Builder) Addon.
 
@@ -33,8 +28,8 @@ To add a WordPress Plugin using the built-in plugin installer:
 
 Go to Plugins > Add New.
 
-1. Type in the name "Animated Headline - VC" in Search Plugins box
-2. Find the "Animated Headline - Visual Composer" Plugin to install.
+1. Type in the name "Animated Headline - Visual Composer (WPBakery Page Builder)" in Search Plugins box
+2. Find the "Animated Headline - Visual Composer (WPBakery Page Builder)" Plugin to install.
 3. Click Install Now to begin the plugin installation.
 4. The resulting installation screen will list the installation as successful or note any problems during the install.
 If successful, click Activate Plugin to activate it, or Return to Plugin Installer for further actions.
@@ -43,7 +38,7 @@ If successful, click Activate Plugin to activate it, or Return to Plugin Install
 
 ### How to use this plugin?
 
-Just after installing Animated Headline - Visual Composer plugin, Go to any page and enable WPBakery Page Builder and add Animated Headline From the content tab. Update inputs according to your requirement and you are good to go.
+Just after installing Animated Headline - Visual Composer (WPBakery Page Builder) plugin, Go to any page and enable WPBakery Page Builder and add Animated Headline From the content tab. Update inputs according to your requirement and you are good to go.
 
 ### How to use as a separated Shortcode?
 
@@ -83,23 +78,24 @@ All Available Animation Types :
 
 ![screenshot-3](https://ps.w.org/animated-headline-visual-composer/assets/screenshot-3.gif)
 
-
 ## Changelog
 
+### 2.0.1
+- Checked for latest wp version 6.8
+
 ### 1.0.4
-
 - Compatibility upto 6.6
+
 ### 1.0.3
-
 - Compatibility upto 6.3
+
 ### 1.0.2
-
 - Compatibility upto 6.0
+
 ### 1.0.1
-
 - Added Animation Speed Input Feature...
-### 1.0.0
 
+### 1.0.0
 - Initial release.
 
 ## Upgrade Notice

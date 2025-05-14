@@ -2,7 +2,7 @@ jQuery( document ).ready( function( $ )
 {
 	function inputTotags()
 	{
-		var check_if_input_available = setInterval( function()
+		var check_if_input_available 				= setInterval( function()
 		{
 			if ( $( '.vc_ui-panel.vc_active' ).attr( 'data-vc-shortcode' ) !== 'animated_headline_vc' )
 			{
@@ -14,7 +14,7 @@ jQuery( document ).ready( function( $ )
 
 				$( 'input[name="animation_texts"]' ).tagsInput({
 					placeholder : 'Add Animation Words',
-					unique : false
+					unique 		: false
 				} );
 				
 				clearInterval( check_if_input_available );
@@ -22,7 +22,7 @@ jQuery( document ).ready( function( $ )
 
 		}, 500 );
 
-		var check_if_preview_container_available = setInterval( function()
+		var check_if_preview_container_available 	= setInterval( function()
 		{
 			if ( $( '.vc_ui-panel.vc_active' ).attr( 'data-vc-shortcode' ) !== 'animated_headline_vc' )
 			{
@@ -61,7 +61,7 @@ jQuery( document ).ready( function( $ )
 
 	function doAnimation( selector )
 	{
-		var animation_type = $( selector ).val();
+		var animation_type 	= $( selector ).val();
 
 		if ( animation_type == '' )
 		{
@@ -80,21 +80,21 @@ jQuery( document ).ready( function( $ )
 			break;
 		}
 
-		var title = $( '.vc_shortcode-param input[name="title"]' ).val();
+		var title 			= $( '.vc_shortcode-param input[name="title"]' ).val();
 
-		var animationTexts = '';
+		var animationTexts 	= '';
 
 		$( '.tagsinput .tag' ).each( function( index, el )
 		{
-			var addclass = ( index == 0 ) ? "is-visible" : "";
+			var addclass 	= ( index == 0 ) ? "is-visible" : "";
 			
 			animationTexts += '<b class="'+ addclass +'">' + $( el ).find( '.tag-text' ).text() + '</b>';
 		} );
 
-		var html = '<h1 class="cd-headline '+animation_type+'"><span>' + title + '</span>';
-			html += '<span class="cd-words-wrapper">';
-			html +=  animationTexts;
-			html += '</span></h1>';
+		var html 			= '<h1 class="cd-headline '+ animation_type +'"><span>' + title + '</span>';
+			html 			+= '<span class="cd-words-wrapper">';
+			html 			+=  animationTexts;
+			html 			+= '</span></h1>';
 	
 		$( '.raw_html_container' ).html( html );
 
