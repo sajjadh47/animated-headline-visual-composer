@@ -1,6 +1,6 @@
 <?php
 /**
- * This file contains the definition of the WP_Edit_Username_Admin class, which
+ * This file contains the definition of the Animated_Headline_Visual_Composer_Admin class, which
  * is used to load the plugin's admin-specific functionality.
  *
  * @package       Animated_Headline_Visual_Composer

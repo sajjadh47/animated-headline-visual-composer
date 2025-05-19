@@ -73,10 +73,10 @@ class Animated_Headline_Visual_Composer {
 	 *
 	 * Include the following files that make up the plugin:
 	 *
-	 * - Animated_Headline_Visual_Composer_Loader.  Orchestrates the hooks of the plugin.
-	 * - Animated_Headline_Visual_Composer_i18n.    Defines internationalization functionality.
-	 * - Animated_Headline_Visual_Composer_Admin.   Defines all hooks for the admin area.
-	 * - Animated_Headline_Visual_Composer_Public.  Defines all hooks for the public side of the site.
+	 * - Animated_Headline_Visual_Composer_Loader. Orchestrates the hooks of the plugin.
+	 * - Animated_Headline_Visual_Composer_i18n.   Defines internationalization functionality.
+	 * - Animated_Headline_Visual_Composer_Admin.  Defines all hooks for the admin area.
+	 * - Animated_Headline_Visual_Composer_Public. Defines all hooks for the public side of the site.
 	 *
 	 * Create an instance of the loader which will be used to register the hooks
 	 * with WordPress.
