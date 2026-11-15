@@ -119,7 +119,7 @@ class Animated_Headline_Visual_Composer_Public {
 			case 'rotate-3':
 			case 'type':
 			case 'scale':
-				$atts['animation_type'] .= 'letters';
+				$atts['animation_type'] .= ' letters';
 				break;
 		}
 

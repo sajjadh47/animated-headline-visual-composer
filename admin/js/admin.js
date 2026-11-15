@@ -26,7 +26,6 @@ jQuery( document ).ready( function( $ )
 		{
 			if ( $( '.vc_ui-panel.vc_active' ).attr( 'data-vc-shortcode' ) !== 'animated_headline_vc' )
 			{
-				
 				clearInterval( check_if_preview_container_available ); return;
 			}
 

@@ -1,17 +1,17 @@
 jQuery( document ).ready( function( $ )
 {
-	//set animation timing
+	// set animation timing
 	var animationDelay 			= ANIMATED_HEADLINE_VISUAL_COMPOSER.animation_speed,
-		//loading bar effect
+		// loading bar effect
 		barAnimationDelay 		= ANIMATED_HEADLINE_VISUAL_COMPOSER.animation_speed + 1300,
-		barWaiting 				= barAnimationDelay - 3000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
-		//letters effect
+		barWaiting 				= barAnimationDelay - 3000, // 3000 is the duration of the transition on the loading bar - set in the scss/css file
+		// letters effect
 		lettersDelay 			= ANIMATED_HEADLINE_VISUAL_COMPOSER.animation_speed - 2450,
-		//type effect
+		// type effect
 		typeLettersDelay 		= ANIMATED_HEADLINE_VISUAL_COMPOSER.animation_speed - 2350,
 		selectionDuration 		= ANIMATED_HEADLINE_VISUAL_COMPOSER.animation_speed - 2000,
 		typeAnimationDelay 		= selectionDuration + 800,
-		//clip effect 
+		// clip effect 
 		revealDuration 			= ANIMATED_HEADLINE_VISUAL_COMPOSER.animation_speed - 1900,
 		revealAnimationDelay 	= ANIMATED_HEADLINE_VISUAL_COMPOSER.animation_speed - 1000;
 	
@@ -19,10 +19,10 @@ jQuery( document ).ready( function( $ )
 
 	function initHeadline()
 	{
-		//insert <i> element for each letter of a changing word
+		// insert <i> element for each letter of a changing word
 		singleLetters( $( '.cd-headline.letters' ).find( 'b' ) );
 		
-		//initialise headline animation
+		// initialise headline animation
 		animateHeadline( $( '.cd-headline' ) );
 	}
 
@@ -77,8 +77,8 @@ jQuery( document ).ready( function( $ )
 			}
 			else if ( ! headline.hasClass( 'type' ) )
 			{
-				//assign to .cd-words-wrapper the width of its longest word
-				var words 			= headline.find('.cd-words-wrapper b'),
+				// assign to .cd-words-wrapper the width of its longest word
+				var words 			= headline.find( '.cd-words-wrapper b' ),
 					width 			= 0;
 				
 				words.each( function()
@@ -94,7 +94,7 @@ jQuery( document ).ready( function( $ )
 				headline.find( '.cd-words-wrapper' ).css( 'width', width );
 			}
 
-			//trigger animation
+			// trigger animation
 			setTimeout( function()
 			{
 				hideWord( headline.find( '.is-visible' ).eq( 0 ) );
@@ -109,7 +109,7 @@ jQuery( document ).ready( function( $ )
 		
 		if( $word.parents( '.cd-headline' ).hasClass( 'type' ) )
 		{
-			var parentSpan 	= $word.parent('.cd-words-wrapper');
+			var parentSpan 	= $word.parent( '.cd-words-wrapper' );
 			
 			parentSpan.addClass( 'selected' ).removeClass( 'waiting' );
 			

@@ -2,7 +2,7 @@
 
 [![Plugin Banner](https://ps.w.org/animated-headline-visual-composer/assets/banner-1544x500.png)](https://wordpress.org/plugins/animated-headline-visual-composer/)
 
-**Tested up to:** 7.0 \
+**Tested up to:** 7.1 \
 **Requires PHP:** 8.0
 
 Animate Your Headlines With Eye Catching Animation : Drag & Drop Animation Builder - Visual Composer (Now WPBakery Page Builder) Addon.
@@ -80,6 +80,9 @@ All Available Animation Types :
 ![screenshot-3](https://ps.w.org/animated-headline-visual-composer/assets/screenshot-3.gif)
 
 ## Changelog
+
+### 2.0.4
+- Compatibility checkup for latest wp version 7.1
 
 ### 2.0.3
 - Compatibility checkup for latest wp version 7.0
